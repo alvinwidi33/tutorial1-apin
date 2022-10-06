@@ -4,11 +4,11 @@
 <h5>Nama: </h5>
 <b>{{nama}}</b>
 
-<table>
-    <tr>
-    <th>Nama Barang</th>
-    <th>Harga Barang</th>
-    <th>Deskripsi</th>
+<table class="table">
+    <tr class="table-primary">
+    <th scope="col">Nama Barang</th>
+    <th scope="col">Harga Barang</th>
+    <th scope="col">Deskripsi</th>
     </tr>
     {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
     {% for barang in list_barang %}
